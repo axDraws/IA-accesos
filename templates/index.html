@@ -8,12 +8,13 @@
 </head>
 <body>
 
-<header>
-  <h1>IA ACCESOS</h1>
-  <p>Fabricación y Mantenimiento de Accesos Industriales</p>
+
+<header class="hero">
+  <img src="../img/isotipo papa.png" alt="Logo IA ACCESOS completo" class="logo-completo">
 </header>
 
-<nav>
+  
+  <nav>
   <a href="#inicio">Inicio</a>
   <a href="#nosotros">Nosotros</a>
   <a href="#servicios">Servicios</a>
@@ -54,15 +55,33 @@
 </section>
 
 <section id="portafolio">
+  <!-- Lightbox (modal de imagen) -->
+<div id="lightbox" class="lightbox">
+  <span class="cerrar">&times;</span>
+  <img class="lightbox-img" id="img-ampliada" src="" alt="">
+</div>
+
   <h2>Portafolio</h2>
   <p>Aquí algunos de nuestros trabajos recientes:</p>
   <div class="galeria">
-    <div class="card"><img src="../img/rampa.jpg" alt="Rampa"><p>Rampa Industrial</p></div>
-    <div class="card"><img src="../img/folding.jpg" alt="Folding Dock"><p>Folding Dock</p></div>
-    <div class="card"><img src="../img/techo.jpg" alt="Techo"><p>Techo Industrial</p></div>
-    <div class="card"><img src="../img/puerta.jpg" alt="Puerta Seccional"><p>Puerta Seccional</p></div>
+    <div class="card"><img src="../img/brazosAutomaticos.jpg" alt="Brasos automaticos"><p>Brasos automaticos</p></div>
+    <div class="card"><img src="../img/acceso de anden.jpg" alt="Accesos de anden"><p>Accesos de anden</p></div>
+    <div class="card"><img src="../img/cortinaMetalica.jpg" alt="Cortina metalica"><p>Cortina metalica</p></div>
+    <div class="card"><img src="../img/acceso_anden.jpg" alt= "acceso anden"><p>acceso anden</p></div>
+    <div class="card"><img src="../img/CortinaMetalicaInterior.jpg" alt= "Cortina metalica interior"><p>Cortina metalica interior</p></div>
+    <div class="card"><img src="../img/rampa.jpg" alt= "Puerta Seccional"><p>rampa</p></div>
   </div>
 </section>
+<section id="portafolio">
+  <!-- ...tu galería aquí... -->
+</section>
+
+<!-- Lightbox (modal de imagen) -->
+<div id="lightbox" class="lightbox">
+  <span class="cerrar">&times;</span>
+  <img class="lightbox-img" id="img-ampliada" src="" alt="">
+</div>
+
 
 <section id="contacto">
   <h2>Contacto</h2>
@@ -78,6 +97,6 @@
 <footer>
   <p>&copy; 2025 IA ACCESOS. Todos los derechos reservados.</p>
 </footer>
-
+<script src="../scripts/galeria.js"></script>
 </body>
 </html>

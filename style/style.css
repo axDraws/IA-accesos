@@ -548,3 +548,18 @@ footer::before {
   left: 70%;
   animation-delay: 6s;
 }
+-width: 180px;
+
+
+.hero {
+  background-color: var(--verde-oscuro);
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo-completo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
