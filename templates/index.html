@@ -24,7 +24,7 @@
 
 <section id="inicio">
   <h2>Bienvenido a IA ACCESOS</h2>
-  <p>Soluciones inteligentes en accesos industriales y aire acondicionado.</p>
+  <p>Soluciones inteligentes en accesos industriales, cortinas, metalicas, rampas y aire acondicionado.</p>
 </section>
 
 <section id="nosotros">
@@ -53,7 +53,28 @@
     </div>
   </div>
 </section>
-
+   <section id="antes-despues">
+  <h2>Antes & Después</h2>
+  <p>Aquí algunas comparativas de nuestro trabajo:</p>
+  
+  <div class="comparison-gallery">
+    <!-- Item 1 -->
+    <div class="comparison-card">
+      <div class="comparison-container">
+        <div class="before-after">
+          <img src="../img/despues.jpeg" alt="Proyecto 1 - Antes">
+          <img src="../img/antes.jpeg" alt="Proyecto 1 - Después">
+        </div>
+        <div class="comparison-slider">
+          <div class="slider-handle"></div>
+        </div>
+      </div>
+      <p>Proyecto de automatización - Nave industrial</p>
+    </div>
+    
+   
+   </section> 
+  
 <section id="portafolio">
   <!-- Lightbox (modal de imagen) -->
 <div id="lightbox" class="lightbox">
@@ -70,16 +91,59 @@
     <div class="card"><img src="../img/acceso_anden.jpg" alt= "acceso anden"><p>acceso anden</p></div>
     <div class="card"><img src="../img/CortinaMetalicaInterior.jpg" alt= "Cortina metalica interior"><p>Cortina metalica interior</p></div>
     <div class="card"><img src="../img/rampa.jpg" alt= "Puerta Seccional"><p>rampa</p></div>
+    <div class="card"><img src="../img/papa retoque 9.jpg" alt= "Puerta Seccional"><p>rampa</p></div>
+    <div class="card"><img src="../img/papa retoque 10.jpg" alt= "Puerta Seccional"><p>rampa</p></div>
   </div>
 </section>
 <section id="portafolio">
   <!-- ...tu galería aquí... -->
 </section>
 
-<!-- Lightbox (modal de imagen) -->
-<div id="lightbox" class="lightbox">
+<section id="videos">
+  <h2>Videos</h2>
+  <p>Algunos de nuestros trabajos en acción:</p>
+  
+  <div class="video-gallery">
+    <!-- Video 1 -->
+    <div class="video-card" data-video-id="sab4YeADkh8" data-title="Cortina metálica interior">
+      <div class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/sab4YeADkh8/mqdefault.jpg" alt="Cortina metálica interior">
+        <div class="play-button"></div>
+      </div>
+      <p>Cortina metálica interior</p>
+    </div>
+    
+    <!-- Video 2 -->
+    <div class="video-card" data-video-id="ABCD1234567" data-title="Puerta seccional automática">
+      <div class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/ABCD1234567/mqdefault.jpg" alt="Puerta seccional automática">
+        <div class="play-button"></div>
+      </div>
+      <p>Puerta seccional automática</p>
+    </div>
+    
+    <!-- Video 3 -->
+    <div class="video-card" data-video-id="EFGH8901234" data-title="Brazos automáticos industriales">
+      <div class="video-thumbnail">
+        <img src="https://img.youtube.com/vi/EFGH8901234/mqdefault.jpg" alt="Brazos automáticos industriales">
+        <div class="play-button"></div>
+      </div>
+      <p>Brazos automáticos industriales</p>
+    </div>
+    
+
+   </section>
+
+
+<!-- Lightbox para videos -->
+<div id="video-lightbox" class="lightbox">
   <span class="cerrar">&times;</span>
-  <img class="lightbox-img" id="img-ampliada" src="" alt="">
+  <div class="lightbox-content">
+    <div class="video-container">
+      <iframe id="video-iframe" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-title"></div>
+  </div>
 </div>
 
 
@@ -92,11 +156,18 @@
     <li>📞 56 3200 9156</li>
     <li>✉️ iaaccesos@outlook.com</li>
   </ul>
+
+ <div id="lightbox" class="lightbox">
+    <span class="cerrar">&times;</span>
+    <img class="lightbox-img" id="img-ampliada" src="" alt="">
+  </div>
 </section>
+
 
 <footer>
   <p>&copy; 2025 IA ACCESOS. Todos los derechos reservados.</p>
 </footer>
 <script src="../scripts/galeria.js"></script>
+<script src="../scripts/videos.js"></script>
 </body>
 </html>
